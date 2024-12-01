@@ -25,18 +25,19 @@ for developers to preview their work as they modify their form.
                        DESC
 
   s.homepage         = 'https://github.com/n8glenn/FormBuilderUI-CocoaPod'
-  s.screenshots     = 'https://drive.google.com/file/d/1JglUZvDeuHyYpNYDkYvcbLLssWj8qT42/view?usp=share_link', 'https://drive.google.com/file/d/1SPt3ZQgzMaOUi2j6xuOU51_21gxFMlYY/view?usp=share_link', 'https://drive.google.com/file/d/1tTkj00XB_da03rG7DSCD_GgWmGlRmQ9T/view?usp=share_link', 'https://drive.google.com/file/d/1sXpS3CALxxyiHvu-aI8w8hQzVrvMgukm/view?usp=share_link', 'https://drive.google.com/file/d/1t8Zc2i5WCjOJrEfPhHYbyZIkbKCmsFzw/view?usp=share_link', 'https://drive.google.com/file/d/1tXgitpf0_5hE2qcZuC8DlkistBX7fkCI/view?usp=share_link', 'https://drive.google.com/file/d/1gvG4jVHzdCqXJp2VekmdT-T2v7_ToFBE/view?usp=share_link', 'https://drive.google.com/file/d/1D54Ht4ULqqHurHQiuMyBbPjkyQHInCej/view?usp=share_link', 'https://drive.google.com/file/d/1hKFSAM833B2_N0XvpRS4Hi0VA6I1O6qr/view?usp=share_link'
+  s.screenshots     = 'https://i.ibb.co/n0PPShp/Screenshot1.png', 'https://i.ibb.co/j5dd3w1/Screenshot2.png', 'https://i.ibb.co/fNSc33w/Screenshot3.png', 'https://i.ibb.co/6nxQVGM/Screenshot4.png', 'https://i.ibb.co/gdGxXXr/Screenshot5.png', 'https://i.ibb.co/ZLgg5TN/Screenshot6.png', 'https://i.ibb.co/cvSQLmv/Screenshot7.png', 'https://i.ibb.co/1nYSFRS/Screenshot8.png', 'https://i.ibb.co/Cs2K8J5/Screenshot9.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'n8glenn' => 'n8glenn@gmail.com' }
   s.source           = { :git => 'https://github.com/n8glenn/FormBuilderUI-CocoaPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '17.6'
-
-  s.source_files = 'FormBuilderUI/Classes/**/*'
+  s.swift_version = '4.0'
+  
+  s.source_files = 'Classes/**/*'
   
   s.resource_bundles = {
-    'FormBuilderUI' => ['FormBuilderUI/Assets/*']
+    'FormBuilderUI' => ['Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
